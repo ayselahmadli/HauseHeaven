@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Toplu Class Calistirma">
+    
+    <test name="Class calistirma">
+
+        <classes>
+
+            <class name="tests.isa.US_026"></class>
+            <class name="tests.isa.US_045"></class>
+
+        </classes>
+        
+    </test>
+    
+</suite>

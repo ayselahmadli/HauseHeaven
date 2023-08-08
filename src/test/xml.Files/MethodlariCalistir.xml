@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Istenen Methodlari Calistirma">
+
+    <test name="Method calistirma">
+
+        <classes>
+
+            <class name="tests.isa.US_013">
+                <methods>
+                    <include name="Kredi_Satinalma_Testi"></include>
+                </methods>
+            </class>
+
+            <class name="tests.isa.US_051">
+                <methods>
+                    <include name="Media_Download_Testi"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
